@@ -11,6 +11,10 @@ const UserSchema = new Schema({
     role: {
         type: String,
         required: true
+    },
+    branch: {
+        type: String,
+        required: true
     }
 })
 
